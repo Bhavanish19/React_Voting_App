@@ -1,0 +1,23 @@
+{
+  "name": "Voting app",
+  "version": "1.0.1",
+  "description": "Real time polling app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "D_Nash",
+  "license": "TCET",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.0",
+    "pusher": "^5.0.0",
+    "react-scripts": "^4.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
