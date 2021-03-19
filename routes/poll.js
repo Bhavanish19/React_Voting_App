@@ -9,10 +9,7 @@ const Pusher = require('pusher');
 const keys = require('../config/keys');
 
 const pusher = new Pusher({
-  appId: "1173846",
-  key: "3160f88015ada2e74050",
-  secret: "cf798ded93cb5437948c",
-  cluster: "ap2",
+  \\create your own pusher
   useTLS: true
 });
 
